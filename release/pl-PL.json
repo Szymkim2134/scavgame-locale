@@ -1,7 +1,7 @@
 {
     "name": "Polski",
     "description": "Nieoficjalne tłumaczenie polskie przeznaczone dla wersji 7.0.",
-    "version": "1.0",
+    "version": "1.0.2",
     "main": {
         "bandage": "Opatrunek",
         "bandagedsc": "Zwitek opatrunku z bandażem, służy do spowalniania krwawienia, stabilizacji złamań oraz wspomagania gojenia się skóry. Nie wpływa na zdrowie mięśni.",
@@ -1555,7 +1555,7 @@
         "char0quirks": "[CANINE] - Twój żołądek nie lubi się z teobrominą.\n[BIOLUMINESCENT_SIGHT] - W sytuacji kryzysowej, jesteś swoim własnym źródłem światła.",
         "char1name": "[SAW-03] \"Milky\"",
         "char1desc": "[FAMILY] \"Psowaty\"\n[CALLOUT_QUOTE] \"Niech będzie.\"\n[SUCCESS_PREDICTION] \"0.0103%\"\n[NOTES] \"Taki trochę zarozumialec\"",
-        "char1quirks": "[NARCOLEPTIC] - Twój cykl spania jest znacznie krótszy, ale też nie odczuwasz negatywnych efektów spania w niewygodnym miejscu.\n[STATURE] - Jesteś Mały!\n[ADAPTED_EYES] - Widzisz lepiej i źródła światła święcą dalej.\n[SEMI_HERBIVORE] - Mięso przyprawia ci trochę mdłości, i uzyskujesz z niego mniej składników odżywczych.\n[SCRAWNY] - Tempo zdobywania doświadczenia STR i RES jest mniejsze o połowę.\n[MARKSMAN] - Możesz używać Klawiszy aby obsługiwać broń i widzisz liczbę pocisków.\n[STRONG_FACADE] - Potrzeba więcej, aby złamać ciebie mentalnie. Nie należysz do osób Empatycznych, chyba że naprawdę sam potrzebujesz empatii.\n[CANINE] - Twój żołądek nie lubi się z teobrominą.",
+        "char1quirks": "[NARCOLEPTIC] - Twój cykl spania jest znacznie krótszy, ale też nie odczuwasz negatywnych efektów spania w niewygodnym miejscu.\n[STATURE] - Jesteś Mały!\n[ADAPTED_EYES] - Widzisz lepiej i źródła światła święcą dalej.\n[SEMI_HERBIVORE] - Mięso przyprawia ci trochę mdłości, i uzyskujesz z niego mniej składników odżywczych.\n[SCRAWNY] - Tempo zdobywania doświadczenia STR i RES jest mniejsze o połowę.\n[MARKSMAN] - Możesz ładować bezpośrednio strzelby z pudełek z nabojami, oraz używać Klawiszy aby obsługiwać broń i widzisz liczbę pocisków.\n[STRONG_FACADE] - Potrzeba więcej, aby złamać ciebie mentalnie. Nie należysz do osób Empatycznych, chyba że naprawdę sam potrzebujesz empatii.\n[CANINE] - Twój żołądek nie lubi się z teobrominą.",
         "char2name": "[SAW-12] \"Dune\"",
         "char2desc": "[FAMILY] \"Insektoid\"\n[CALLOUT_QUOTE] \"Hrrrr... czas iść dla Diu-nka..?\"\n[SUCCESS_PREDICTION] \"0.001%\"\n[NOTES] \"Bleh! Ślini się!\"",
         "char2quirks": "[AQUATIC] - Możesz oddychać podwodą, i lubisz pod nią spać.\n[FURLESS] - Brak futra czyni ciebie podatnym na temperaturę otoczenia. Schniesz o wiele szybciej. Woda gruntowa oraz inne płyny ustabilizują twoją temperaturę ciała.\n[CANNIBAL] - Możesz jeść surowe mięso oraz rozczłonkowywać ciała bez konsekwencji. W zasadzie to jesteś odporny na Zatrucie pokarmowe.\n[CARNIVORE] - Jedzenie owoców sprawi że odrazu je zwymiotujesz.\n[MUSCLE_FOR_BRAINS] - W zasadzie ty <i>nie robisz</i> myślenia. Tempo zdobywania doświadczenia INT jest zmniejszone o połowę.\n[UNFEELING] - Nastrój jest zmniejszony o Jedną Trzecią. Nie potrafisz się przytulać bądź targować. Nie widzisz czegoś niezwykłego w zabijaniu innych osób.\n[CHITINOUS] - Chitynowe narośla ochraniają cię przed fizyczną traumą.",
@@ -1660,6 +1660,8 @@
         "runsettimebetweenearthquakesdsc": "Zmienia średni czas między trzęsieniami ziemi",
         "runsettemperatureoffset": "Zmiany temperatury otoczenia",
         "runsettemperatureoffsetdsc": "O ile cieplejsza/zimniejsza ma być średnio temperatura",
+		"runsetallowlayerendmovement": "Poruszanie się na końcu warstwy",
+        "runsetallowlayerendmovementdsc": "Wpływa na to czy będziesz mógł w pełni się poruszać i skakać na samym końcu warstwy. Domyślnie jest to wyłączone, ponieważ możliwość wzięcia wszystkich zdobyczy oraz śmieci które się gromadzą na samym dole warstwy jest niezbalansowane.",
         "runsetlockpickprecision": "Łagodność wytrychów",
         "runsetlockpickprecisiondsc": "Zmienia jak szeroki jest kąt precyzji podczas otwierania zamków.",
         "runsetambientlight": "Światło otoczenia",
@@ -1749,6 +1751,8 @@
         "gamesetclearerrecipesdsc": "Jeżeli włączone, lista przepisów w menu wytwarzania dostanie bardziej kontrastujące się kolory, ułatwiając odróżnienie przepisów wytwarzalnych od tych nie.",
         "gamesetinventoryuseleniency": "Opóźnienie użycia w Ekwipunku",
         "gamesetinventoryuseleniencydsc": "To, ile czasu musi upłynąć od otworzenia ekwipunku zanim można używać przedmiotów. Przy niższych wartościach użyć ich można szybciej.",
+		"gamesetautocolorfavourite": "Auto-pokoloruj Ulubione przedmioty",
+        "gamesetautocolorfavouritedsc": "Wpływa na to, czy Ulubione przedmioty będą od razu pokolorowane na żółto, podobnie jak to było domyślnie w wersji Demo gry.",
         "gamesetskipintro": "Pomiń intro",
         "gamesetskipintrodsc": "Bo widziałeś już intro o jeden raz za dużo...",
         "gamesetrpc": "Integracja z discordem",
@@ -2061,8 +2065,8 @@
         "alertnanotechfail": "<color=\"red\">Pismo jest niezrozumiałe...\nMoże spróbuj później?",
         "alertnanotechrepeat": "Już to przeczytałeś. Miej włączony skaner przy sobie, i wypatruj sygnałów.",
         "nanotechdepth": "Sygnatura nanotechnologii wykryta na tej głębokości!",
-        "nanotechdepthinitialleft": "Sygnatura nanotechnologii wykryta w tym obszarze, na lewo...",
-        "nanotechdepthinitialright": "Sygnatura nanotechnologii wykryta w tym obszarze, na prawo...",
+        "nanotechdepthinitialleft": "Sygnatura nanotechnologii wykryta w tym obszarze, na lewo, na <>.",
+        "nanotechdepthinitialright": "Sygnatura nanotechnologii wykryta w tym obszarze, na prawo, na <>.",
         "insertsample": "Włóż próbkę",
         "tradeinteract": "Handluj",
         "read": "Przeczytaj",
@@ -4202,6 +4206,9 @@
             "cargoimpale3": [
                 "Ja... U-udało mi się... Cóż... Więc... Nie bądźmy zbyt pewni siebie... Myślę że chyba mogę użyć tej kapsuły aby powrócić. Wracajmy na powierzchnię."
             ],
+			"wwmrwrongway": [
+                "To chyba nie tędy jest właściwa droga... Powinienem się udać w stronę źródła tych dziwnych pulsów..."
+            ],
             "endlessloop0": [
                 "...Cc-C...co..? Co? Czemu? Co się... Czemu jestem tutaj spowrotem..? Hnn... Co się stało..."
             ],
@@ -5078,6 +5085,9 @@
             "cargoimpale3": [
                 "Hh. Focus. Very well. It is only logical that this was an intended part of the plan. I shall proceed into this drill pod and head upwards."
             ],
+			"wwmrwrongway": [
+                "Idę w złą stronę. Muszę się udać w stronę źródła tych pulsów."
+            ],
             "endlessloop0": [
                 "...Hm. Hhm... Mhhhhmmmhh... Hhhhhmmm... O-okay. Not... N-not. What I. Was e-expecting. I must have done something wrong. I s-shall return and try once again."
             ],
@@ -5918,6 +5928,9 @@
             ],
             "cargoimpale3": [
                 "Hhr...n..mmm...du-ne can lea-ve..."
+            ],
+			"wwmrwrongway": [
+                "Diu-nek... Głu-pi. Nie-e tę-dy."
             ],
             "endlessloop0": [
                 "...Mmmrrnnngghh... Ngghh......a-gain?"
